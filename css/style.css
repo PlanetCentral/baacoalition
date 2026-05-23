@@ -46,20 +46,21 @@ nav {
   color: var(--white);
   text-decoration: none;
   letter-spacing: 3px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo span { color: var(--red); }
 
 .nav-bridge {
-  height: 40px;
+  height: 36px;
   width: auto;
-  margin-left: 12px;
-  vertical-align: middle;
+  max-width: 80px;
+  margin-left: 10px;
   display: inline-block;
+  object-fit: contain;
   opacity: 0.9;
 }
-
-
 
 .nav-links {
   display: flex;
@@ -582,8 +583,6 @@ section { padding: 100px 48px; }
   gap: 80px;
 }
 
-.contact-info { }
-
 .contact-detail {
   margin-top: 40px;
   display: flex;
@@ -708,7 +707,6 @@ footer {
     gap: 24px;
   }
   .nav-hamburger { display: flex; }
-
   section { padding: 72px 24px; }
   #home { padding: 120px 24px 80px; }
   .hero-stats { display: none; }
@@ -720,4 +718,5 @@ footer {
   .press-item { grid-template-columns: 1fr; gap: 8px; }
   footer { flex-direction: column; text-align: center; padding: 32px 24px; }
   .hero-diagonal { display: none; }
+  .nav-bridge { height: 28px; max-width: 60px; }
 }
