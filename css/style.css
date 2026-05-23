@@ -50,10 +50,12 @@ nav {
 
 .nav-logo span { color: var(--red); }
 
-  height: 36px;
-  width: 72px;
-  margin-left: 10px;
+.nav-bridge {
+  height: 40px;
+  width: auto;
+  margin-left: 12px;
   vertical-align: middle;
+  display: inline-block;
   opacity: 0.9;
 }
 
